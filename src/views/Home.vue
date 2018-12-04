@@ -13,7 +13,7 @@
 export default {
   data: function() {
     return {
-      message: "Welcome to Vue.js!"
+      message: "PDF Renderer"
     };
   },
   created: function() {},
