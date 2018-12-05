@@ -74,8 +74,9 @@ export default {
 
           // //Skills
           // //-------------------------------------
-          // doc.setFontSize(12);
-          // doc.text("EDUCATION", 10, 85);
+          doc.setFontSize(12);
+          doc.text("SKILZ", 50, 85);
+          doc.text(this.student.skills[0].skill_name, 50, 95);
           // //-------------------------------------
 
           // //Capstone
