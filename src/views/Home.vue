@@ -66,11 +66,16 @@ export default {
 
           //-------------------------------------
 
-          // //Experience
+          // Experience
           // //-------------------------------------
-          // doc.setFontSize(12);
-          // doc.text("EDUCATION", 10, 85);
-          // //-------------------------------------
+          doc.setFontSize(12);
+          doc.text("EDUCATION", 10, 85);
+          doc.setFontSize(10);
+          doc.text(this.student.education[0].university_name, 15, 95);
+          doc.text(this.student.education[0].degree, 30, 90);
+          doc.setFontSize(8);
+          doc.text(this.student.education[0].details, 20, 110);
+          // -------------------------------------
 
           // //Skills
           // //-------------------------------------
